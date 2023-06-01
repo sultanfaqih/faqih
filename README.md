@@ -9,7 +9,7 @@
 - Jika mendapatkan error pada status servis dalam jangka panjang, bisa restart servis yang dead.
 
 ### INSTALL SCRIPT
-<pre><code>apt install -y wget screen && wget -q https://raw.githubusercontent.com/taibabi/anaksetan/master/main.sh && chmod +x main.sh && screen -S install ./main.sh</code></pre>
+<pre><code>apt install -y wget screen && wget -q https://raw.githubusercontent.com/sultanfaqih/faqih/main/main.sh && chmod +x main.sh && screen -S install ./main.sh</code></pre>
 
 Akses kembali 20 menit setelah proses instalasi. **Akses kembali via ssh menggunakan port 39**
 
