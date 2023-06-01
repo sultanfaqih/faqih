@@ -27,7 +27,7 @@ ISP=$(wget -qO- ipinfo.io/org)
 CITY=$(curl -s ipinfo.io/city)
 TIME=$(date +'%Y-%m-%d %H:%M:%S')
 RAMMS=$(free -m | awk 'NR==2 {print $2}')
-REPO="https://raw.githubusercontent.com/manssizz/scriptvps/master/"
+REPO="https://raw.githubusercontent.com/sultanfaqih/faqih/master/"
 APT="apt-get -y install "
 domain=$(cat /root/domain)
 start=$(date +%s)
